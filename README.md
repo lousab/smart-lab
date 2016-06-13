@@ -1,2 +1,2 @@
-# smart-lab
+# smart@lab
 Kickstart for Ubuntu Mate Edu
