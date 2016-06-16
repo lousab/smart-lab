@@ -1,6 +1,6 @@
 #Generic Kickstart template for Ubuntu
 #Platform: x86 and x86-64
-#
+
 
 ### Minimal server Virtual Machine
 #preseed preseed/file=/cdrom/preseed/ubuntu-server-minimalvm.seed
