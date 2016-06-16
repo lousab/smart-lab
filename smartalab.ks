@@ -3,7 +3,7 @@
 #
 
 ### Minimal server Virtual Machine
-preseed preseed/file=/cdrom/preseed/ubuntu-server-minimalvm.seed
+#preseed preseed/file=/cdrom/preseed/ubuntu-server-minimalvm.seed
 
 #System language
 lang it_IT
@@ -98,19 +98,16 @@ preseed pkgsel/update-policy select unattended-upgrades
 %packages
 ubuntu-mate-core
 ubuntu-mate-desktop
-ubuntu-restricted-extra
+#ubuntu-restricted-extra
 
 #Per la scuola dell'infanzia
-ubuntu-edu-preschool
+#ubuntu-edu-preschool
 
 #Per la scuola primaria
-ubuntu-edu-primary
+#ubuntu-edu-primary
 
 #Per le scuole medie
 #ubuntu-edu-secondary
 
 #Per le scuole superiori
 #ubuntu-edu-tertiary
-
-
-
