@@ -3,7 +3,7 @@
 
 
 ### Minimal server Virtual Machine
-#preseed preseed/file=/cdrom/preseed/ubuntu-server-minimalvm.seed
+preseed preseed/file=/cdrom/preseed/ubuntu-server-minimalvm.seed
 
 #System language
 lang it_IT
