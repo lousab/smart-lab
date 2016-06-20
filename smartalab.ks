@@ -81,7 +81,7 @@ network --bootproto=dhcp --device=eth0
 # If you want to force a hostname, regardless of what either the DHCP
 # server returns or what the reverse DNS entry for the IP is, uncomment
 # and adjust the following line.
-preseed netcfg/hostname string belinux
+preseed netcfg/hostname string smarta
 
 #Firewall configuration
 firewall --disabled --trust=eth0 --ssh 
