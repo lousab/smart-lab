@@ -24,7 +24,7 @@ timezone Europe/Rome
 rootpw --disabled
 
 #Initial user (user with sudo capabilities) 
-user smarta --fullname "Santa Marta" --password smarta
+user my_username --fullname "My_username" --password to_change
 
 #Reboot after installation
 reboot
@@ -81,7 +81,7 @@ network --bootproto=dhcp --device=eth0
 # If you want to force a hostname, regardless of what either the DHCP
 # server returns or what the reverse DNS entry for the IP is, uncomment
 # and adjust the following line.
-preseed netcfg/hostname string smarta
+preseed netcfg/hostname string my_hostname
 
 #Firewall configuration
 firewall --disabled --trust=eth0 --ssh 
